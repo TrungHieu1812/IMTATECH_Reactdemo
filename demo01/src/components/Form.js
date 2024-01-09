@@ -146,7 +146,18 @@ export default function Form() {
                   </div>
                 </div>
               </div>
-              <div className="container border border-2 rounded-3">
+              <div className="row mt-3 mb-3">
+                <div className="col">
+                  {/* Button Submit */}
+                  <button
+                    type="button"
+                    className="btn btn-success container rounded-4"
+                  >
+                    Generate Quizz
+                  </button>
+                </div>
+              </div>
+              <div className="container border border-2 rounded-3 p-3">
                 <div className="row justify-content-center">
                   <img
                     src="/assets/cup.png"
@@ -165,17 +176,6 @@ export default function Form() {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="row mt-3">
-          <div className="col">
-            {/* Button Submit */}
-            <button
-              type="button"
-              className="btn btn-success container rounded-4"
-            >
-              Generate Quizz
-            </button>
           </div>
         </div>
       </div>
